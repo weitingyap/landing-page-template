@@ -1,3 +1,36 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.header, .footer {
+    display: flex;
+}
+
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 12px;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header a {
+    color: inherit;
+    text-decoration: none;
+}
