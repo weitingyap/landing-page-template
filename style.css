@@ -103,3 +103,21 @@ body {
     height: 100px;
     border: 3px solid #3882F6;
 }
+
+.content.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-text, .quote-customer{
+    margin: 20px 15vh;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-customer{
+    text-align: right;
+}
