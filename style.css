@@ -54,6 +54,7 @@ body {
     display: flex;
     flex: 0 1 auto;
     justify-content: space-around;
+    padding: 20px 10vh;
 }
 
 .hero-title{
@@ -98,6 +99,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
+    padding: 20px 20vh;
 }
 
 .information-cards .info-icon {
@@ -111,10 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.quote-text, .quote-customer{
-    margin: 20px 15vh;
+    padding: 20px 20vh;
 }
 
 .quote-text{
@@ -131,6 +130,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px 10vh;
 }
 
 .cta-card {
