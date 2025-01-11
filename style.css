@@ -4,14 +4,20 @@ body {
 
 .header, .footer {
     display: flex;
-}
-
-.header{
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 12px;
+}
+
+.header {
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+}
+
+.footer {
+    justify-content: center;
+    font-size: 12px;
+    font-weight: lighter;
 }
 
 .header-nav {
