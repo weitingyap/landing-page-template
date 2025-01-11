@@ -44,6 +44,7 @@ body {
 }
 
 .content {
+    box-sizing: border-box;
     padding: 36px;
     min-height: 40vh;
 }
