@@ -40,3 +40,42 @@ body {
     font-size: 12px;
     font-weight: lighter;
 }
+
+.content {
+    padding: 36px;
+    min-height: 40vh;
+}
+
+.content.hero{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-around;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.hero-subtitle{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 20px 0;
+}
+
+.hero-img{
+    width: 35vh;
+    min-width: 35vh;
+    margin: 20px;
+}
+
+.sign-up-cta{
+    background-color: #3882F6;
+    text-decoration: none;
+    color: #F9FAF8;
+    padding: 12px;
+    margin: 20px 0;
+}
