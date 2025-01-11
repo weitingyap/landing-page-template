@@ -106,6 +106,9 @@ body {
 
 .content.quote{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .quote-text, .quote-customer{
