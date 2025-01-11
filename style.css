@@ -14,12 +14,6 @@ body {
     align-items: center;
 }
 
-.footer {
-    justify-content: center;
-    font-size: 12px;
-    font-weight: lighter;
-}
-
 .header-nav {
     display: flex;
     gap: 12px;
@@ -39,4 +33,10 @@ body {
 .header a {
     color: inherit;
     text-decoration: none;
+}
+
+.footer {
+    justify-content: center;
+    font-size: 12px;
+    font-weight: lighter;
 }
