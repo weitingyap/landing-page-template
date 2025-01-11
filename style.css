@@ -55,6 +55,7 @@ body {
     display: flex;
     flex: 0 1 auto;
     justify-content: space-around;
+    align-items: center;
     padding: 20px 10vh;
 }
 
