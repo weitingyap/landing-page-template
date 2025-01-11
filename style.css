@@ -99,9 +99,13 @@ body {
 .information-cards ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
     padding: 20px 20vh;
+}
+
+.information-cards li {
+    text-align: center;
 }
 
 .information-cards .info-icon {
